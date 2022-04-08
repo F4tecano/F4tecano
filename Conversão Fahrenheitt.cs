@@ -3,11 +3,11 @@
 
 	Console.Clear();
 
-	double clima, resul, a; // Criar um programa que leia o salario minimo do cliente e informe 
-							  // e quantos salarios minimos ele tem, utilizando moldura e cores 
+	double clima, resul, a; // Criar um programa que converta a temperatura para FAHRENHEITTS 
+							  //utilizando moldura e cores 
 
 	Console.SetCursorPosition(15, 5);
-	Console.WriteLine("Calculando quantos salarios minimos você tem");
+	Console.WriteLine("Conversão da temperatura para fahrenheitts");
 	Console.SetCursorPosition(10, 5);
 	Console.WriteLine("╔══════════════════════════════════════════════════╗");
 	Console.SetCursorPosition(10, 6);
