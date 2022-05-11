@@ -1,0 +1,18 @@
+using System;
+
+public class Program
+{
+    public static void Main()
+    {
+        double n1, c, a; //tabuada
+        Console.WriteLine("Digite um numero para fazer a tabuada");
+        n1 = Convert.ToDouble(Console.ReadLine());
+        for (c = 1; c <= 10; c++)
+        {
+            a = Convert.ToDouble(n1 * c);
+            Console.WriteLine(": " + a);
+        }
+        Console.ReadKey();
+    }
+    
+}
